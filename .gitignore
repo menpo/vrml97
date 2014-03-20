@@ -1,0 +1,8 @@
+*~
+*.pyc
+*.in
+PKG-INFO
+*.cfg
+build/**
+dist/**
+menpo_PyVRML97.egg-info/**
