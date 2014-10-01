@@ -9,6 +9,13 @@ environment:
     - PYTHON_VERSION: 2.7
     - PYTHON_VERSION: 3.4
 
+matrix:
+  allow_failures:
+    - platform: x86
+      PYTHON_VERSION: 3.4
+    - platform: x64
+      PYTHON_VERSION: 3.4
+
 platform:
 - x86
 - x64
