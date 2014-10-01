@@ -1,0 +1,23 @@
+package:
+  name: menpo-pyvrml97
+  version: 2.3.0a4
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy 1.9.0
+
+  run:
+    - python
+    - numpy 1.9.0
+    - simpleparse 2.1.1
+    - pydispatcher 2.0.3
+
+test:
+  imports:
+    - vrml.vrml97.parser
+
+about:
+  home: https://github.com/menpo/vrml97/
+  license: BSD
