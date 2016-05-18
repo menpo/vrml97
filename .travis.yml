@@ -12,7 +12,7 @@ matrix:
     - env: PYTHON_VERSION=3.4  # waiting on simpleparse
 
 install:
-- wget https://raw.githubusercontent.com/menpo/condaci/v0.4.6/condaci.py -O condaci.py
+- wget https://raw.githubusercontent.com/menpo/condaci/v0.4.x/condaci.py -O condaci.py
 - python condaci.py setup $PYTHON_VERSION --channel $BINSTAR_USER
 - export PATH=$HOME/miniconda/bin:$PATH
 
